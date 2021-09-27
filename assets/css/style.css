@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+.section-header {
+  /* color: black; */
+  color: orangered;
+  font-weight: 700;
+  font-size: 4.8rem;
+
+  box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+}
+
+.navbar {
+  background-color: rgb(245, 250, 255);
+  display: flex;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.navbar img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  color: black;
+  background-color: gold;
+  height: fit-content;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.webcatalogue {
+  text-align: center;
+  font-size: 5rem;
+  height: fit-content;
+  font-weight: 600;
+  padding-top: 2rem;
+  width: fit-content;
+  border-bottom: 2px solid orangered;
+}
+
+.followus {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.socaillogo {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.socaillogo a img {
+  border-radius: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 10px gainsboro;
+}
+
+.article {
+  margin: 2rem;
+  width: 45rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px gainsboro;
+}
+.article img {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+
+  min-height: 30rem;
+  max-height: 80%;
+}
+.article div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 12px 12px;
+  background-color: gold;
+}
+
+.number {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 4rem;
+  width: 10%;
+}
+.name {
+  font-size: 5rem;
+  width: 80%;
+  padding-left: 3rem;
+}
+
+.section-articles {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 62.5rem) {
+  html {
+    font-size: 50%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 3.6rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+}
+
+@media only screen and (max-width: 40rem) {
+  html {
+    font-size: 40%;
+  }
+  .socaillogo {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 32rem) {
+  html {
+    font-size: 30%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 4rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+  .socaillogo {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 25rem) {
+  html {
+    font-size: 30%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 3rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+  .socaillogo a img {
+    border-radius: 50%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px gainsboro;
+  }
+  .socaillogo {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 22rem) {
+  html {
+    font-size: 25%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 3rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+  .socaillogo a img {
+    border-radius: 50%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px gainsboro;
+  }
+  .socaillogo {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 16.85rem) {
+  html {
+    font-size: 20%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 3rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+  .socaillogo a img {
+    border-radius: 50%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px gainsboro;
+  }
+  .socaillogo {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 13.75rem) {
+  html {
+    font-size: 15%;
+  }
+  .section-header {
+    /* color: black; */
+    color: orangered;
+    font-weight: 700;
+    font-size: 3rem;
+
+    box-shadow: 1px 1px 20px hsla(0, 0%, 50%, 0.5);
+  }
+  .socaillogo a img {
+    border-radius: 50%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px gainsboro;
+  }
+  .socaillogo {
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+  }
+}
